@@ -83,7 +83,11 @@ const GuestBook: React.FC<GuestBookProps> = ({ isActive }) => {
                 onWheel={handleMessageWheel}
                 ref={messageDivRef}
             >
-                       <video controls src={"/_next/static/media/vid.mp4"} style={{ width: "400px" }} />
+                       <video controls src={"https://camattua.000webhostapp.com/assets/img/vid.mp4"} style={{ width: "400px" }} />
+                       
+                        {/* <video width="320" height="240" loop autoPlay>
+                            <source src="public/video/vid.mp4" type="video/mp4"></source>
+                        </video> */}
             </div>
 
             <div
@@ -101,7 +105,7 @@ const GuestBook: React.FC<GuestBookProps> = ({ isActive }) => {
                     <span className="ml-1">Kirim Ucapan</span>
                 </button>
 
-                <button
+                {/* <button
                     type="button"
                     className="flex items-center px-3 py-1 text-sm rounded-2xl bg-gold text-blue-floral hover:bg-gold2"
                     onClick={() => setAmplopModalOpen(true)}
@@ -110,7 +114,7 @@ const GuestBook: React.FC<GuestBookProps> = ({ isActive }) => {
                         <Mail />
                     </span>
                     <span className="ml-1">Kirim Amplop</span>
-                </button>
+                </button> */}
             </div>
 
             <Remark
