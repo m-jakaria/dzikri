@@ -78,15 +78,12 @@ const GuestBook: React.FC<GuestBookProps> = ({ isActive }) => {
                     VIDEO KAMI
                 </h1>
             </div>
-            <video autoPlay loop muted className='w-full h-screen z-10'>
-              <source src='/public/video/vid.mp4' type='video/mp4' />
-            </video>
             <div
                 className={`${CLASESS[1]} flex flex-col w-full px-2 mt-8 md:px-20 laptop:px-10 2xl:px-20 md:mt-14 lg:mt-28 laptop:mt-6 2xl:mt-24 font-Inter`}
                 onWheel={handleMessageWheel}
                 ref={messageDivRef}
             >
-               {/* <h1><video src=""></video></h1> */}
+                       <video controls src={"/_next/static/media/vid.mp4"} style={{ width: "400px" }} />
             </div>
 
             <div
