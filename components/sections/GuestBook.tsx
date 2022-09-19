@@ -83,7 +83,7 @@ const GuestBook: React.FC<GuestBookProps> = ({ isActive }) => {
                 onWheel={handleMessageWheel}
                 ref={messageDivRef}
             >
-                       <video controls src={"https://camattua.000webhostapp.com/assets/img/vid.mp4"} style={{ width: "400px" }} />
+                       <video controls src={"https://drive.google.com/file/d/15_wCzlmbnxD5aYEe_QeG-qQU6s75qG9C/preview"} style={{ width: "400px" }} />
                        
                         {/* <video width="320" height="240" loop autoPlay>
                             <source src="public/video/vid.mp4" type="video/mp4"></source>
