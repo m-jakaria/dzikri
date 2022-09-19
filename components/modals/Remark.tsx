@@ -61,7 +61,7 @@ const Remark: React.FC<RemarkProps> = ({ messageDivRef, setRemarks, open, setOpe
 
         const remarks = await getRemarks()
 
-        setRemarks(remarks)
+        // setRemarks(remarks)
         setFullname('')
         setMessage('')
         setPresence(0)
