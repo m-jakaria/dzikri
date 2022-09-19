@@ -1,7 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react'
 import { getRemarks, RemarkDoc } from '../../lib/api'
 import Annotation from '../Icons/Annotation'
-import Mail from '../Icons/Mail'
 import Amplop from '../modals/Amplop'
 import Remark from '../modals/Remark'
 
