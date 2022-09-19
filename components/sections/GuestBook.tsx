@@ -34,7 +34,7 @@ const GuestBook: React.FC<GuestBookProps> = ({ isActive }) => {
         async function _getRemarks() {
             const remarks = await getRemarks()
 
-            setRemarks(remarks)
+            // setRemarks(remarks)
         }
 
         _getRemarks()
@@ -83,8 +83,7 @@ const GuestBook: React.FC<GuestBookProps> = ({ isActive }) => {
                 onWheel={handleMessageWheel}
                 ref={messageDivRef}
             >
-                       <video controls src={"https://drive.google.com/file/d/15_wCzlmbnxD5aYEe_QeG-qQU6s75qG9C/preview"} style={{ width: "400px" }} />
-                       
+                     <iframe src="https://drive.google.com/file/d/15_wCzlmbnxD5aYEe_QeG-qQU6s75qG9C/preview" width="640" height="480" allow="autoplay"></iframe>
                         {/* <video width="320" height="240" loop autoPlay>
                             <source src="public/video/vid.mp4" type="video/mp4"></source>
                         </video> */}

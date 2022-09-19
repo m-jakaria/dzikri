@@ -11,7 +11,7 @@ export interface RemarkDoc {
 }
 
 export const getRemarks = async () => {
-    return await fetch(process.env.NEXT_PUBLIC_FUNCTION_HOST + '/api/remarks').then(res => res.json())
+    // return await fetch(process.env.NEXT_PUBLIC_FUNCTION_HOST + '/api/remarks').then(res => res.json())
 }
 
 export const storeRemark = async (fullname: string, message: string, presence: number) => {
